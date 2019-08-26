@@ -1,0 +1,28 @@
+body{
+	background: radial-gradient(rgb(255, 255, 255), rgb(100, 100, 100));
+}
+
+.step{
+	width: 900px;
+	padding: 40px;
+	font-size: 1.5;
+	line-height: 1.5;
+	opacity: 0.3;
+	transition: opacity 1s;
+	display: flex;
+	align-content: center;
+}
+
+.step.active {
+	opacity: 1;
+}
+ 
+ #gg{
+ 	display: flex;
+	align-items: center;
+	align-content: center;
+ }
+
+ #tt{
+ 	transform: scale(100);
+ }
