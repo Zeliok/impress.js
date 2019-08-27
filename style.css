@@ -8,21 +8,14 @@ body{
 	font-size: 1.5;
 	line-height: 1.5;
 	opacity: 0.3;
-	transition: opacity 1s;
-	display: flex;
-	align-content: center;
+	transition: opacity 1s; 
 }
 
 .step.active {
 	opacity: 1;
 }
  
- #gg{
- 	display: flex;
-	align-items: center;
-	align-content: center;
- }
-
- #tt{
- 	transform: scale(100);
+ #tH{
+ 	text-align: center;
+ 	transform: rotate(360deg);
  }
